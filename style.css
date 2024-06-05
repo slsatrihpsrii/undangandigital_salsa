@@ -1,0 +1,331 @@
+:root{
+    --brown:#474747;
+    --sahdow:0 2px 2px rgb(0 0 0/0.5);
+}
+
+body{
+    color: #ffffff;
+    margin:auto;
+}
+.cover{
+    min-height: 1000px;
+    background-color: #aeaeae;
+}
+.cover h4, .cover p{
+    text-shadow: var(--shadow);
+    font-family: "crimson text", cursive;
+    font-weight: 700;
+    font-size: normal;
+    padding-top: 10px;
+}
+.profil p{
+    font-family: "kalam", cursive;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.cover a{
+    color:var(--brown);
+    background-color: white;
+}
+.cover a:hover{
+    background-color: var(--brown);
+    color: white;
+}
+.coverbg img{
+    border-radius: 50%;
+}
+.profil img{
+    border-radius: 50%;
+}
+.profil{
+    font-size: 15px;
+    padding-top:3rem;
+}
+.coverbg h4{
+    font-size: 30px;
+}
+.turutmengundang{
+    padding-top:3rem;
+}
+.kotaktm{
+    padding: 0px;
+    height: 550px;
+    width:450px;
+    background-color: #474747;
+    margin:auto;
+    padding-bottom:50px;
+    border-radius: 10%;
+    color: white;
+}
+ol{
+    text-align: center;
+}
+.kotakakad{
+    height: 450px;
+    width:450px;
+    background-color: #474747;
+    margin:auto;
+    padding-top: 3rem;
+    border-radius: 10%;
+}
+.mapsakad{
+    padding-top: 3rem;
+}
+
+.wali_pria {
+    display: flex;
+    justify-content: center;
+}
+.wali_wanita .wali_wanita_all {
+    display: flex;
+    justify-content: center;
+}
+.text-1{
+    align-items: start;
+}
+.text-2{
+    align-items: start;
+}
+.kotakresepsi{
+    height: 450px;
+    width:450px;
+    background-color: #474747;
+    margin:auto;
+    padding-top: 3rem;
+    border-radius: 10%;
+}
+.mapsresepsi{
+    padding-top: 3rem;
+}
+.prewedding{
+    
+    margin-top: 50px;
+
+}
+.prewedding  img{
+    width: 600px;
+    background-image: url("prewedding.jpeg");
+    height: 550px;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.card-body{
+    width:450px;
+    height:450px;
+    margin:auto;
+    background-color: var(--brown);
+    text-align: center;
+    border-radius: 8%;
+    margin-top: 3rem;
+}
+.form-name {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin: auto;
+    gap: 1rem;
+    text-align: center;
+ }
+#ucapan{
+    padding-bottom:50px;
+}
+#kirim{
+    width:60px;
+    height:40px;
+}
+.btn{
+    background-color:#5f5f5f;
+}
+.rsvp{
+    font-family: "crimson text",cursive ;
+    font-weight: 700;
+    font-size: normal;
+    color:#5f5f5f;
+    padding-top: 20px;
+    font-size: 30px;
+    margin: auto;
+}
+.pesan{
+    font-family: "crimson text",cursive ;
+    font-weight: 700;
+    font-size: normal;
+    color:#5f5f5f;
+    font-size: 30px;
+    margin: auto;
+}
+.kotakamplop{
+    height: 450px;
+    width:450px;
+    background-color: #474747;
+    margin:auto;
+    padding-top: 3rem;
+    border-radius: 10%;
+    margin-top: 30px;
+}
+/* media  query */
+/* laptop */
+@media(max-width:1280px){
+    html{
+        font-size: 85%;
+        .simply-countdown>.simply-section{
+            padding:50px;
+    }
+    .coverbg h4{
+        font-size:20px;
+    }
+    .coverbg img{
+        width:700px;
+        height:500px;
+    }
+    .profil img{
+        width:200px;
+        height: 200px;
+    }
+    .profil p{
+        font-size: 23px;
+    }
+    iframe{
+        width:350px;
+        height:320px;
+    }
+    .kotakresepsi{
+        width:500px;
+        height:400px;
+    }
+    .kotakakad{
+        width:500px;
+        height:400px;
+    }
+    .kotaktm{
+        width:600px;
+        height:500px;
+    }
+    .card-body{
+        width:450px;
+        height: 450px;
+    }
+    .kotakamplop{
+        width: 450px;
+        height: 400px;
+    }
+    .img-thumbnail{
+        width:250px;
+        height:250px;
+    }
+
+    
+
+}
+}
+/* tablet */
+@media(max-width:820px){
+    html{
+        font-size: 75%;
+        .simply-countdown>.simply-section{
+            padding:45px;
+            margin: 5px;
+    }
+    .coverbg h4{
+        font-size: 40px;
+        padding-top:5rem;
+    }
+    .coverbg img{
+        width: 750px;
+        height: 600px;
+    }
+    .profil p{
+        font-size: 20px;
+    }
+    .profil img{
+        width:200px;
+        height: 200px;
+    }
+    iframe{
+        width:280px;
+        height:280px;
+    }
+    .kotakakad{
+        width:450px;
+        height:350px;
+    }
+    .kotakresepsi{
+        width:450px;
+        height:350px;
+    }
+    .kotaktm{
+        height:400px;
+        width:500px;
+    }
+    .card-body{
+        width:400px;
+        height: 400px;    
+    }
+    .kotakamplop{
+        width: 400px;
+        height: 400px;
+    }
+    .img-thumbnail{
+        width:250px;
+        height:250px;
+    }
+
+
+}
+}
+/* handphobe */
+@media(max-width:576px){
+    html{
+        font-size:60%;
+        .simply-countdown>.simply-section{
+            padding:33px;
+            margin:5px;
+    }
+    .coverbg img{
+        width: 350px;
+        height: 440px;
+    }
+    .cover h4{
+        font-size:20px;
+    }
+    .cover p{
+        font-size:15px;
+    }
+    iframe{
+    width:250px;
+    height:250px;
+    }
+    .kotakresepsi{
+        width:300px;
+        height:300px;
+    }
+    .kotakakad{
+        width:300px;
+        height:300px;
+    }
+    .kotaktm{
+        height:400px;
+        width:300px;
+    }
+    .card-body{
+        height:360px;
+        width: 300px;
+    }
+    .form-name{
+        height:120px;
+        width: 250px;
+    }
+    .kotakamplop{
+        width: 300px;
+        height: 250px;
+    }
+    .img-thumbnail{
+        width:180px;
+        height: 145px;
+    }
+    
+}
+}
